@@ -51,4 +51,13 @@ function leet(word){
   	}
   	return toto;
 }
-console.log(leet("anaconda"));
+
+function verlan(word){
+	 var split = word.split("");
+   var toto = split.reverse();
+
+   var mot = toto.join("");
+
+   return mot.split(" ").reverse().join(" ");
+}
+console.log(verlan("Hello World"));
