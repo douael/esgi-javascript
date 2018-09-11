@@ -56,8 +56,12 @@ function verlan(word){
 	 var split = word.split("");
    var toto = split.reverse();
 
-   var mot = toto.join("");
+   var mots = toto.join("");
 
-   return mot.split(" ").reverse().join(" ");
+   return mots.split(" ").reverse().join(" ");
 }
-console.log(verlan("Hello World"));
+
+function yoda(word){
+	 return word.split(" ").reverse().join(" ");
+}
+console.log(yoda("Hello World"));
