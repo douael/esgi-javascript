@@ -1,5 +1,5 @@
 License
-Okty is made available under the MIT License.
+Okty  is made available under the MIT License.
 
 Credits
 Okty is created and maintained by Samuel Alves Antunes, Laurent Bassin, Maxime Marquet & Jordan Venant.
