@@ -27,4 +27,13 @@ function snake_case(word){
 	split = word.split(" ");
 	return split.join("_");
 }
-console.log(snake_case("hello world"));
+
+function prop_access(word){
+	split = word.split('.');
+	for ( var i = 1;i<split.length;i++)
+	{
+		split[i] = "[\""+split[i] +"\"]"
+	}
+	return split.join("");
+}
+console.log(prop_access("animal.type.name"));
