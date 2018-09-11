@@ -22,4 +22,9 @@ function camelCase(word){
 	split = mots.split(" ");
 	return split.join("");
 }
-console.log(camelCase("hello world"));
+
+function snake_case(word){
+	split = word.split(" ");
+	return split.join("_");
+}
+console.log(snake_case("hello world"));
