@@ -28,7 +28,7 @@ function snake_case(word){
 	return split.join("_");
 }
 
-// PROP ACCESS HS
+// PROP ACCESS HS 
 function prop_access(word){
 	split = word.split('.');
 	for ( var i = 1;i<split.length;i++)
