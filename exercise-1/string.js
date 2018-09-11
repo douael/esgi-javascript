@@ -66,5 +66,7 @@ function yoda(word){
 	 return word.split(" ").reverse().join(" ");
 }
 
+function vig(){
 
+}
 console.log(yoda("Hello World"));
