@@ -36,4 +36,19 @@ function prop_access(word){
 	}
 	return split.join("");
 }
-console.log(prop_access("animal.type.name"));
+
+function leet(word){
+	var lettres = ['a','e','y','u','i','o','z','r','t','p','q','s','d','f','g','h','j','k','l','m','w','x','c','v','b','n'];
+	var leetTo = ['4','3','7','(_)','1','0','z','r','t','p','q','s','d','f','g','h','j','k','l','m','w','x','c','v','b','n'];
+	toto ="";
+	test = [];
+	for(var i = 0; i < lettres.length; i++){
+	 test[lettres[i]] = leetTo[i];
+	}
+
+	 for(var i = 0; i < word.length; i++){
+	    toto += test[word[i].toLowerCase()]
+  	}
+  	return toto;
+}
+console.log(leet("anaconda"));
