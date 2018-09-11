@@ -28,6 +28,7 @@ function snake_case(word){
 	return split.join("_");
 }
 
+// PROP ACCESS HS
 function prop_access(word){
 	split = word.split('.');
 	for ( var i = 1;i<split.length;i++)
@@ -64,4 +65,6 @@ function verlan(word){
 function yoda(word){
 	 return word.split(" ").reverse().join(" ");
 }
+
+
 console.log(yoda("Hello World"));
